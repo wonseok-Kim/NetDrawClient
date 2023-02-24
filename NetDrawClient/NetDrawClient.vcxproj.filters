@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Container">
+      <UniqueIdentifier>{d62a2361-b85d-4d65-a161-991b702ab358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{77aea6a4-a937-4828-9e5f-5e7fd34f66b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -27,10 +33,25 @@
     <ClInclude Include="NetDrawClient.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Util\MyLog.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Container\RingBuffer.h">
+      <Filter>Container</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NetDrawClient.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\MyLog.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Container\RingBuffer.cpp">
+      <Filter>Container</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

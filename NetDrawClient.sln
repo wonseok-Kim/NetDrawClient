@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetDrawClient", "NetDrawClient\NetDrawClient.vcxproj", "{FCFA2470-EDF2-49E1-B881-917B98EBA29F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetDrawDummy", "NetDrawDummy\NetDrawDummy.vcxproj", "{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FCFA2470-EDF2-49E1-B881-917B98EBA29F}.Release|x64.Build.0 = Release|x64
 		{FCFA2470-EDF2-49E1-B881-917B98EBA29F}.Release|x86.ActiveCfg = Release|Win32
 		{FCFA2470-EDF2-49E1-B881-917B98EBA29F}.Release|x86.Build.0 = Release|Win32
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Debug|x64.ActiveCfg = Debug|x64
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Debug|x64.Build.0 = Debug|x64
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Debug|x86.Build.0 = Debug|Win32
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Release|x64.ActiveCfg = Release|x64
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Release|x64.Build.0 = Release|x64
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Release|x86.ActiveCfg = Release|Win32
+		{5E89C52B-4FE3-4B8E-B55E-B0E94DFD0375}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
