@@ -359,6 +359,8 @@ void WriteProc()
 			else
 			{
 				Log(L"send err in WriteProc: %d", errSend);
+                if (errSend == 10054)
+                    break;
 				Crash();
 			}
 		}
